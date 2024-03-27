@@ -323,6 +323,8 @@ body {
     justify-content: center;
     .product-card {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 50px;
       .card-img {
         width: 220px !important;
@@ -632,6 +634,9 @@ body {
 }
 
 @media (max-width: 870px) {
+  body {
+    margin-top: 300px !important;
+  }
   .nav-items {
     justify-content: center !important;
     gap: 20px !important;

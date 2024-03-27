@@ -1,3 +1,11 @@
+//////////////   RESPONSIVE NAVBAR   /////////////////
+function toggleNavbar() {
+  document.getElementById("navbar-responsive").classList.toggle("open");
+}
+
+document.getElementById("menu-btn").addEventListener("click", toggleNavbar);
+//////////////   RESPONSIVE NAVBAR   /////////////////
+
 const url = "https://fakestoreapi.com/products";
 const error = document.querySelector(".error");
 const loading = document.querySelector(".loading");

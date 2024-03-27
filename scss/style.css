@@ -317,6 +317,8 @@ body .product-wrapper {
 }
 body .product-wrapper .product-card {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 50px;
 }
 body .product-wrapper .product-card .card-img {
@@ -614,6 +616,9 @@ body .loading .loading-cards .div30 {
   }
 }
 @media (max-width: 870px) {
+  body {
+    margin-top: 300px !important;
+  }
   .nav-items {
     justify-content: center !important;
     gap: 20px !important;
