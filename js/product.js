@@ -1,5 +1,6 @@
 const url = "https://fakestoreapi.com/products";
 const error = document.querySelector(".error");
+const loading = document.querySelector(".loading");
 
 async function fetchData(api) {
   let query = new URLSearchParams(window.location.search);
